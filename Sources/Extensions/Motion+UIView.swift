@@ -63,7 +63,7 @@ fileprivate extension UIView {
 
 public extension UIView {
   /// A boolean that indicates whether motion is enabled.
-  @IBInspectable
+  
   var isMotionEnabled: Bool {
     get {
       return associatedInstance.isEnabled
@@ -74,7 +74,7 @@ public extension UIView {
   }
   
   /// A boolean that indicates whether motion is enabled.
-  @IBInspectable
+  
   var isMotionEnabledForSubviews: Bool {
     get {
       return associatedInstance.isEnabledForSubviews
@@ -85,7 +85,7 @@ public extension UIView {
   }
   
   /// An identifier value used to connect views across UIViewControllers.
-  @IBInspectable
+  
   var motionIdentifier: String? {
     get {
       return associatedInstance.identifier

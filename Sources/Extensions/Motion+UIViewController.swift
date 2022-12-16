@@ -118,7 +118,7 @@ extension UIViewController {
   }
   
   ///A boolean that indicates whether Motion is enabled or disabled.
-  @IBInspectable
+  
   public var isMotionEnabled: Bool {
     get {
       return transitioningDelegate is MotionTransition
